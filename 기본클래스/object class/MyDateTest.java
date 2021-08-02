@@ -23,6 +23,9 @@ class MyDate{
 		}
 		return false;
 	}
+	public int hashCode() {
+		return day;
+	}
 	
 }
 public class MyDateTest {
@@ -31,6 +34,8 @@ public class MyDateTest {
 		MyDate date1 = new MyDate(9,18,2004);
 		MyDate date2 = new MyDate(9,18,2004);
 		System.out.println(date1.equals(date2));
+		System.out.println(date1.hashCode());
+		System.out.println(date2.hashCode());
 	}
 
 }

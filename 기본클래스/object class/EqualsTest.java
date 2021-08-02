@@ -19,6 +19,9 @@ class Student{
 		}
 		return false;
 	}
+	public int hashCode() {   //equals에서 사용한 멤버변수를 사용해주면됨.
+		return studentID;
+	}
 }
 
 public class EqualsTest {
@@ -36,6 +39,9 @@ public class EqualsTest {
 		
 		System.out.println(std1 == std2);
 		System.out.println(std1.equals(std2));
+		
+		System.out.println(std1.hashCode());
+		System.out.println(std2.hashCode());
 	}
 
 }
