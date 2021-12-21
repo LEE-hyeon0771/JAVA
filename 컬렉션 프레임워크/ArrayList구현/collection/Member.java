@@ -2,18 +2,18 @@ package collection;
 
 public class Member {
 	
-	private int memberID;
+	private int memberId;
 	private String memberName;
 	
-	public Member(int memberID, String memberName) {
-		this.memberID = memberID;
+	public Member(int memberId, String memberName) {
+		this.memberId = memberId;
 		this.memberName = memberName;
 	}
-	public int getMemberID() {
-		return memberID;
+	public int getMemberId() {
+		return memberId;
 	}
-	public void setMemberID(int memberID) {
-		this.memberID = memberID;
+	public void setMemberId(int memberId) {
+		this.memberId = memberId;
 	}
 	public String getMemberName() {
 		return memberName;
@@ -21,8 +21,8 @@ public class Member {
 	public void setMemberName(String memberName) {
 		this.memberName = memberName;
 	}
-	public String toString() {
-		return memberName + " 회원님의 아이디는 " + memberID + "입니다.";
-	}
 	
+	public String toString() {
+		return memberName + "회원님의 아이디는 " + memberId + "입니다.";
+	}
 }
