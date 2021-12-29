@@ -35,8 +35,8 @@ class Main_1764 {
        Collections.sort(list);         //list를 오름차순으로 정렬
        
        bw.write(list.size() + "\n");
-       for(String str : list) {
-          bw.write(str + "\n");
+       for(String result : list) {
+          bw.write(result + "\n");
        }
         bw.flush();
         br.close();
