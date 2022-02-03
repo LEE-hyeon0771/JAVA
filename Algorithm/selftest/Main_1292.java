@@ -21,9 +21,6 @@ public class Main_1292 {
 		for(int i = 1; i<=1000; i++) {
 			for(int j = 0; j<i; j++) {
 				list.add(i);
-				if(j == B) {
-					break;
-				}
 			}
 		}
 		
