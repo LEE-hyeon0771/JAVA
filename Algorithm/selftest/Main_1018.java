@@ -8,9 +8,6 @@ import java.util.StringTokenizer;
 public class Main_1018 {
 	public static boolean[][] arr;
 	public static int answer = Integer.MAX_VALUE;
-	
-	
-	
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		
