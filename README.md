@@ -1,4 +1,5 @@
 # JAVA
- 1. JAVA study for univ
- 2. Algorithm study(baekjoon, programmers)
+JAVA homework of univ
+JAVA Study of Self coding
+
 
